@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class= "t "></div>
+		<h1 class="label"><span style="--l: '¡H';">¡L</span>
+            <span style="--l: 'e';">O</span>
+            <span style="--l: 'l';">G</span>
+            <span style="--l: 'l';">I</span>
+            <span style="--l: '0!';">N!</span></h1>
+	
+		
+		<form class="login_form" onsubmit="iniciarSesion()" name="form" >
+			<div class="font">Email or Phone</div>
+			<i class="fas fa-user" ></i>
+			<input  type="text" id="txtemail" ></input>
+			<div class="font font2">Password</div>
+			<i class="fas fa-lock"></i>
+			<input type="password" id="txtpassword"></input>
+			<a class="joder" href="#">Forgot Password</a>
+			<button id="logine" type="submit">Login</button>
+			<div class ="login">Or login witdh</div>
+		</form>
+
+		<form  >
+		<div class=facebook >
+			<i class="fab fa-facebook-f" style="color:#1b02fa";></i>
+		    </div>
+			<div class=instagram >
+			<i class="fab fa-instagram" style="color:#ffffff "; ></i>
+			</div>
+			<h4 class="titulo">Registration Form</h4>
+		
+		
+		
+			<input class="controls"  type="text" id="nombres" placeholder="Enter your name" required >
+		<input class="control" type="text"  name="apellidos" id="apellidos" placeholder="Enter your last name" required >
+		<input class="contro" type="text"  name="correo" id="correo" placeholder="Enter your email" required>
+		<input class="contr" type="password"  name="correos" id="correos" placeholder="Enter your password" required>
+		<div class="acuerdo">
+		<p>I accept and gree<a href="#">Terms and Conditions</a></p>
+	</div>
+		<button class="botons" id="registrar" type="reset" onclick="capturar()">Check in</button>
+	</div>	
+		</form>
+<script src="valid.js"></script>
+<script src="registro.js"></script>
+<script src="almacenamiento.js"></script>
+
+</body>
+</html>
